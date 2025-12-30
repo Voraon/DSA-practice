@@ -1,0 +1,35 @@
+
+Must-Revise Before Interview
+🔐 Security
+Clickjacking
+Cross-Site Scripting (XSS)
+CSRF (Cross-Site Request Forgery)
+Same-Origin Policy
+CORS (and why it exists)
+HTTP-only cookies
+Secure cookies
+SameSite cookies (Lax vs Strict vs None)
+Authentication vs Authorization
+Token-based auth vs Session-based auth
+JWT storage: Cookie vs localStorage (risks & trade-offs)
+Cookie vs Session
+Why storing JWT in localStorage is risky
+401 vs 403 (very commonly asked)
+🌐 Networking / Web Fundamentals
+HTTP vs HTTPS (what HTTPS actually adds)
+HTTP methods (GET vs POST vs PUT vs PATCH)
+HTTP status codes (2xx, 3xx, 4xx, 5xx)
+HTTP/1.1 vs HTTP/2 (multiplexing, HOL blocking)
+What happens when you type a URL in the browser
+Preflight request (OPTIONS) — when & why
+CDN — what it caches and what it cannot
+DNS (high-level understanding)
+🧠 Browser / Storage / Performance
+Cookies vs localStorage vs sessionStorage
+Is localStorage accessible across domains? (why/why not)
+Why localStorage is synchronous and why it matters
+IndexedDB — when and why it’s used
+Browser cache vs CDN cache
+Progressive rendering
+Critical Rendering Path (HTML → CSS → JS → Paint)
+Why CSS blocks rendering & JS blocks parsing
