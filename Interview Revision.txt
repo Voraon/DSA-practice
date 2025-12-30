@@ -33,3 +33,16 @@ Browser cache vs CDN cache
 Progressive rendering
 Critical Rendering Path (HTML → CSS → JS → Paint)
 Why CSS blocks rendering & JS blocks parsing
+
+
+OTHERS
+Event delegation
+mutable vs immutablde object 
+async defer
+workers
+Progressive rendering
+css preprocessor
+IndexedDB
+prototype inheritance
+cookies
+    
