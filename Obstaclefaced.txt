@@ -1,0 +1,6 @@
+In micro frontend there was a race condition to get business .
+
+Due to race condition sometime the business api call was success full, sometime it was failing due to
+verfication api was still pending. To resolve this, had to make the operation synchrenous understanding the business 
+requirement. As it's critical point . Other than make this synchrenous , the api will eventually fail.
+Hence make a promise chain , on the successful validation of jwt token, then make the business selection api call
