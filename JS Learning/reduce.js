@@ -5,7 +5,9 @@ const user = [
   { firstName: "motki maa", age: 53 }
 ];
 
-const output = user.reduce((acc, curr) => {
+const output = user.reduce((acc, curr, index) => {
+
+    console.log(`Iteration ${index + 1}:`);
   if (curr.age < 30) {
     acc.push(curr.firstName);
   }
