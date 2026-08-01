@@ -1,0 +1,3 @@
+function searchSorted(nums, target) {
+    
+}
